@@ -1,0 +1,34 @@
+.btn-icon{
+   
+    position: fixed;
+    z-index: 999;
+    bottom: 0 ;
+    left: 0;
+}
+.icon a{
+    text-decoration: none; color: white;
+}
+.icon{
+    font-size: 30px;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.icon p{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+.phone{
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(37, 37, 37, 0.241);
+}
+@media screen and (max-width:768px) {
+    .icon p{
+        display: none;
+    }
+}

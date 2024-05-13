@@ -1,0 +1,18 @@
+.gioithieu{
+    padding: 50px;
+    color: white;
+    font-family: "Old Standard TT", serif;
+}
+.container-content{
+    line-height: 30px;
+    
+}
+._2cuy{
+    font-family: "Darker Grotesque", sans-serif;
+    line-height: 30px;
+}
+@media screen and (max-width:768px) {
+    .gioithieu{
+        padding: 50px 20px;
+    }
+}
